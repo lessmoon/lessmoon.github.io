@@ -1,8 +1,15 @@
 ---
-theme :
-  name : dbyll
+theme:
+  name: dbyll
+published: true
 ---
 {% include default.html %}
+
+{% if site.use_math_jax %}
+<script type="text/javascript" async 
+src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js">
+</script>
+{% endif %}
 
 {% if site.google_analytics %}
 <!-- Asynchronous Google Analytics snippet -->
