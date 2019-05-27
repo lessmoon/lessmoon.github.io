@@ -5,7 +5,7 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: lsm1
+disqus: lessmoon
 title: lessmoon
 use_mathjax: 1
 
